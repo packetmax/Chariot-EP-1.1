@@ -22,8 +22,9 @@ Arduino sketches in the examples folder in this repository highlight a number of
  - Distributed Arduino temp monitoring example
  - Blynk smartphone/cloud tracking example
  - Websocket interfacing of the Chariot mesh to the internet and CoAP browser example for Chrome
+
 ## API and URI usage
-#### API (*partial list*)
+### API (*partial list*)
 
 |   Function:                                                                  |   Signature:         |
 |:-----------------------------------------------------------------------------|--------------------------------|

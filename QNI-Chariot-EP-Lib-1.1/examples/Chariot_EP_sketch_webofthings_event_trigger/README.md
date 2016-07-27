@@ -98,8 +98,9 @@ OBServe request via the RESTful API:
 ### URI and API PUT semantics for this sketch
 The parameterization of the temp trigger resource is completely determined by this sketch. It can be easily
 modified, and its pattern used for other resources generating events that must by monitored (i.e., **OBS**erved).
+
 | PUT URI                  | Resulting action by this sketch      |
-| --------------------------------------------------------------- | -------------------------------- |
+|:---------------------------------------------------------------|--------------------------------|
 | coap://chariot.c350e.local/arduino/mode?put&param=state&val={on,off} | enable or disable trigger    |
 | coap://chariot.c350e.local/arduino/mode?put&param=triggerval&val=30   | resource triggers at 30C    |
 | coap://chariot.c350e.local/arduino/mode?put&param=func&val={lt,gt}    | func sets '>' or '<' of triggerval     |
